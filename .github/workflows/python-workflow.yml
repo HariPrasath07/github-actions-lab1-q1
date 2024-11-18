@@ -15,7 +15,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4.2.2
       with: 
-        repository: 'https://github.com/HariPrasath07/github-actions-lab1-q1.git'
+        repository: 'HariPrasath07/github-actions-lab1-q1'
         ref: 'main'    
 
     - name: Install dependencies
