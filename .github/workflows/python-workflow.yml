@@ -12,6 +12,11 @@ jobs:
       uses: actions/setup-python@v5
       with:
         python-version: 3.11
+    - name: Checkout
+      uses: actions/checkout@v4.2.2
+      with: 
+        repository: 'https://github.com/HariPrasath07/github-actions-lab1-q1.git'
+        ref: 'main'    
 
     - name: Install dependencies
       run: |
